@@ -15,7 +15,7 @@ for filename in "$linuxDir"*; do
      else
           echo "$extDir doesn't exist, creating now"
           mkdir "$extDir"
-          echo "moving $filname to $extDir"
+          echo "moving $filename to $extDir"
           mv "${filename}" "${extDir}"
      fi
 done
