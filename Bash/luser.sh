@@ -4,7 +4,7 @@
 
 
 # Display the UID
-echo "Your UID is ${UID}"
+echo "Your UID is ${UID}" 
 echo "Your UserName is ${}"
 
 # Display the username
